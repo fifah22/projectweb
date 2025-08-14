@@ -1,6 +1,6 @@
 <?php
 include_once("koneksi.php");
-<form action="https://php-server.example.com/proses.php" method="POST">
+
 
 
 // Proses input form
@@ -40,7 +40,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM absensi ORDER BY id DESC");
     <div class="bg-success p-2 text-dark bg-opacity-10">
         <h1 class="p-4 text-center">Catatan Kehadiran</h1>
         <div class="container">
-            <form action="" method="post" name="form_absen">
+            <form action="https://php-server.example.com/proses.php" method="POST">
                 <div class="col-md-6 offset-md-3">
                     <div class="mb-3">
                         <label class="form-label">Nama</label>
